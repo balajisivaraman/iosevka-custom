@@ -1,0 +1,19 @@
+[buildPlans.iosevka-custom]
+family = "Iosevka Custom"
+spacing = "fixed"
+serifs = "sans"
+no-cv-ss = true
+
+[buildPlans.iosevka-custom.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.iosevka-custom.weights.bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.iosevka-custom.slopes]
+upright = "normal"
+italic = "italic"
