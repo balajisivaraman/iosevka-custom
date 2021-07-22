@@ -17,3 +17,12 @@ css = 700
 [buildPlans.iosevka-custom.slopes]
 upright = "normal"
 italic = "italic"
+
+[buildPlans.iosevka-custom.variants.design]
+g = "double-storey"
+k = "curly-serifless"
+m = "short-leg"
+zero = "long-dotted"
+asterisk = "flip-penta-low"
+at = "short"
+percent = "rings-continuous-slash"
