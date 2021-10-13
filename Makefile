@@ -17,7 +17,7 @@ build:
 
 patch:
 	mkdir -p build/patched-fonts
-	podman run -v ~/projects/IosevkaCustom/build/IosevkaCustom/dist/iosevka-custom/ttf/:/in -v ~/projects/IosevkaCustom/build/patched-fonts/:/out nerdfonts/patcher
+	sudo podman run -v ~/projects/IosevkaCustom/build/IosevkaCustom/dist/iosevka-custom/ttf/:/in -v ~/projects/IosevkaCustom/build/patched-fonts/:/out nerdfonts/patcher
 
 install:
 	rm -rf ~/.local/share/fonts/IosevkaCustom
