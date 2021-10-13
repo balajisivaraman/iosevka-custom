@@ -7,7 +7,7 @@ clean:
 	rm -rf build
 
 init:
-	git clone --depth=1 git@github.com:be5invis/Iosevka.git build/IosevkaCustom
+	git clone --depth=1 https://github.com/be5invis/Iosevka.git build/IosevkaCustom
 
 build:
 	cp private-build-plans.toml build/IosevkaCustom
