@@ -14,14 +14,10 @@ shape = 700
 menu = 700
 css = 700
 
-[buildPlans.iosevka-custom.slopes]
-upright = "normal"
-italic = "italic"
-
 [buildPlans.iosevka-custom.variants.design]
 g = "double-storey"
 k = "curly-serifless"
-m = "short-leg"
+m = "earless-corner-double-arch"
 zero = "long-dotted"
 asterisk = "flip-penta-low"
 at = "short"
